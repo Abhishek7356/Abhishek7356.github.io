@@ -93,7 +93,7 @@ hr{
 }
 .detailes{
     
-    width: 437px;
+    max-width: 80%;
     height: 172px;
     padding-left: 29px;
     display: flex;
