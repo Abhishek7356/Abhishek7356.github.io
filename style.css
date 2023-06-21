@@ -1,0 +1,105 @@
+body{
+    /* background-color: #4f537d; */
+    /* background-image: linear-gradient(360deg,transparent,rgb(251, 146, 146),rgb(246, 90, 90)); */
+    /* background-color: #4f537d; */
+    background-color: #757bb9;
+}
+#resume{
+    height: 8em; 
+    width: 8em;
+    padding-top: 3.3em;
+     background-color: rgb(210, 209, 209);
+     color: black;
+     transition: 0.3s;
+    
+
+}
+#project{
+    height: 8em; 
+    width: 8em;
+    padding-top: 3.3em; 
+    background-color: rgb(210, 209, 209);
+    color: black;
+    transition: 0.3s;
+    
+}
+#contact{
+    height: 8em; 
+    width: 8em;
+    padding-top: 3.3em; 
+    background-color: rgb(210, 209, 209);  
+    color: black;
+    transition: 0.3s;
+}
+hr{
+    
+  border: 0;
+  border-top: 1px solid rgb(134, 133, 133);
+  width: 100%;
+  
+}
+.nothing{
+    --lnw: 1px;
+    --brd: var(--color_13);
+    --alpha-brd: 1;
+    transform-origin: center 0.5px;
+}
+#resume:hover{
+    /* background-color:black;
+    color:rgb(134, 133, 133) ; */
+    transform: scale(1.1);
+}
+#project:hover{
+    /* background-color: black;
+    color: rgb(134, 133, 133); */
+    transform: scale(1.1);
+}
+#contact:hover{
+    /* background-color: black;
+    color: rgb(134, 133, 133); */
+    transform: scale(1.1);
+}
+.button{
+    background-color: rgb(134, 133, 133);
+    color: black;
+}
+.skills{
+    height: 100%;
+    width: 95%;
+    background-color: white;
+    color: #4f537d;
+    padding-left: 2rem;
+   
+    border-radius: 1em;
+}
+.education{
+    height: 95%;
+    width: 95%;
+    background-color: white;
+    color: #4f537d;
+    padding-left: 2rem;
+   
+    border-radius: 1em;
+}   
+.projectDetails{
+    height: 80%;
+    width: 95%;
+    background-color: white;
+    color: #4f537d;
+    padding-left: 2rem;
+    
+    border-radius: 1em;   
+    margin-top: 2em;
+}
+.detailes{
+    
+    width: 437px;
+    height: 172px;
+    padding-left: 29px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.detailes::-webkit-scrollbar{
+    display: none;
+}
