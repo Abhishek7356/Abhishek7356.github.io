@@ -8,7 +8,8 @@ body{
     height: 8em; 
     width: 8em;
     padding-top: 3.3em;
-     background-color: rgb(210, 209, 209);
+     /* background-color: rgb(210, 209, 209); */
+    background-color: #757bb9;
      color: black;
      transition: 0.3s;
     
@@ -18,7 +19,8 @@ body{
     height: 8em; 
     width: 8em;
     padding-top: 3.3em; 
-    background-color: rgb(210, 209, 209);
+    /* background-color: rgb(210, 209, 209); */
+    background-color: #757bb9;
     color: black;
     transition: 0.3s;
     
@@ -27,7 +29,8 @@ body{
     height: 8em; 
     width: 8em;
     padding-top: 3.3em; 
-    background-color: rgb(210, 209, 209);  
+    /* background-color: rgb(210, 209, 209);   */
+    background-color: #757bb9;
     color: black;
     transition: 0.3s;
 }
@@ -93,13 +96,22 @@ hr{
 }
 .detailes{
     
-    max-width: 80%;
+    background-color:rgb(219, 217, 217) ;
+    max-width: 95%;
     height: 172px;
-    padding-left: 29px;
+   padding-left: 2em;
     display: flex;
     overflow-x: scroll;
+    border-radius: 10px;
     overflow-y: hidden;
 }
 .detailes::-webkit-scrollbar{
     display: none;
+}
+
+.outer-detailes{
+    max-width: 100%;
+    height: 172px;
+    background-color:rgb(219, 217, 217) ;
+    border-radius: 10px;
 }
