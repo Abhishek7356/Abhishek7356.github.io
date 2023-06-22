@@ -4,6 +4,33 @@ body{
     /* background-color: #4f537d; */
     background-color: #757bb9;
 }
+header{
+    background-color: beige;
+    border-bottom-left-radius: 100% 70%;
+    border-bottom-right-radius: 100% 70%;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.36);
+}
+.name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 12px;
+}
+/* .navbar{
+    background-color: aqua;
+} */
+.domain{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 32px;
+}
+.name-circle{
+    height: 22px;
+    width: 22px;
+    /* background-color: rgb(244, 244, 118); */
+    margin-top: 4px;
+    
+}
+.circleWithName{
+    display: flex;
+}
 #resume{
     height: 8em; 
     width: 8em;
